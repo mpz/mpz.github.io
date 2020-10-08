@@ -1,0 +1,165 @@
+body{
+  overflow-x: hidden;
+}
+
+@media screen and (min-width: 800px) {
+  section .content{
+    padding-left: 150px;
+    max-width: 800px;
+  }
+}
+
+/* DONE */
+
+.cover{
+  display: block;
+  min-height: 600px;
+  min-width: 200px;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section{
+  min-height: 500px;
+  padding-top: 200px;
+  padding: 10px;
+  padding-top: 100px;
+}
+
+.header .logo{
+  background-image: url(../images/logo.png);
+  display: block;
+  height: 100px;
+  width: 270px;
+}
+
+
+section.welcome{
+  text-align: left;
+}
+
+section.welcome .content{
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+
+section.welcome .cover{
+  background-image: url(../images/0.png);
+  max-width: 580px;
+}
+
+section.all-tasks .cover{
+  background-image: url(../images/2.png);
+  width: 100%;
+  min-height: 200px;
+  height: 50vw;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.work-now .cover{
+  background-image: url(../images/3.png);
+  background-size: 50%;
+  margin-bottom: 50px;
+  height: 50vw;
+  min-height: 350px;
+}
+
+section.work-now{
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 990px) {
+  section.work-now{
+    text-align: center;
+  }
+}
+
+section.earn .cover{
+  background-image: url(../images/4.png);
+  background-size: 100%;
+  height: 50vw;
+  min-height: 200px;
+  max-width: 950px;
+}
+
+section.feedback img{
+  margin-bottom: 20px;
+}
+
+section.feedback .row p{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+}
+
+section.feedback .name{
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+section.feedback .name span{
+  font-weight: normal;
+  font-size: 80%;
+}
+
+section.download{
+  background-color: rgb(21, 22, 27);
+  color: rgb(224, 224, 224);
+  min-height: 600px;
+}
+
+section.download .links{
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  margin-top: 50px;
+}
+
+section.download .btn-download{
+  height: 120px;
+  width: 400px;
+  margin-bottom: 50px;
+  display: block;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 800px) {
+  section.download .links{
+    width: 320px;
+    margin-top: 50px;
+  }
+
+  section.download .btn-download{
+    background-size: 80%;
+  }
+}
+
+section.download .btn-download-ios{
+  background-image: url(../images/btn-ios.png);
+}
+
+section.download .btn-download-android{
+  background-image: url(../images/btn-android.png);
+}
+
+section.contacts{
+  min-height: 400px;
+}
+
+section.contacts h2{
+  font-size: 300%;
+}
+
+h1{
+  font-size: 300%;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
